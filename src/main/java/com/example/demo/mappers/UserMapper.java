@@ -8,7 +8,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class UserMapper {
-
+    //ovde je problem
     public static User toEntity(UserModel model) {
         User user = new User();
         user.setId(model.getId());
